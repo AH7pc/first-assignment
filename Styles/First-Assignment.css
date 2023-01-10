@@ -38,6 +38,7 @@ h1{
 
 /* Main styles */
 
+/* section-1 */
 .first-section{
     display: flex;
     margin-left:10% ;
@@ -60,4 +61,135 @@ h3{
 }
 .tic{
     color:greenyellow;
+}
+
+
+/* section-2 */
+
+.ss{
+    text-align: center;
+    font-size: 60px;
+}
+
+.ss-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    
+}
+.ssimg{
+    width: 130px;
+    position: relative;
+    left: 30px;
+}
+.ssh{
+    font-weight: 800;
+    font-size: 35px;
+}
+.ssp{
+    font-size: 30px;
+}
+.ss_container-1{
+    margin: 100px;
+    display: block;
+    justify-content:center ;
+}
+.ss_container-2{
+    margin: 80px;
+}
+.ss_container-3{
+    margin: 80px;
+}
+.ss_container-4{
+    margin: 80px;}
+.second-section{
+    margin-top: 200px;
+
+
+}
+
+/* third section */
+
+
+.tsimg{
+    position: relative;
+    left: 300px;
+    height: 450px;
+    width: 1750px;
+    background-image: url("/images/watch.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+}
+
+.tscontainer{
+    position: relative;
+    left: 400px;
+    bottom: 370px;
+}
+.tsh{
+    font-size: 70px;
+    color: white;
+}
+
+.tsb{
+    padding: 40px 80px;
+    border-radius: 10px;
+    font-size: 25px;
+    color: coral;
+    border: none;
+}
+
+
+/* Footer section */
+
+footer{
+    background-color: black;
+    height: 800px;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+.footerp{
+    font-size: 25px;
+    margin: 30px;
+}
+.part-1{
+    margin-top: 240px;
+    margin-right: 300px;
+}
+.footerh1{
+    font-size: 80px;
+}
+.fimg{
+    width: 80px;
+    margin: 10px;
+}
+
+.part-2{
+    position: relative;
+    top:250px ;
+    left: 120px;
+}
+.fh{
+    font-size: 50px;
+    position: relative;
+    bottom: 30px;
+}
+.p1{
+    border: 3px solid white;
+    border-radius: 15px;
+    padding-right: 300px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    font-size: 30px;
+    margin: 10px;
+    
+}
+.footerb{
+    padding: 30px 60px;
+    border-radius: 15px;
+    font-size: 35px;
+    margin: 10px;
 }
